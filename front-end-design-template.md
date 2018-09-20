@@ -1,29 +1,31 @@
 # Front End Design and White Paper Template
-Copy this file to a new one called _front-end-design.md_. Populate the sections as indicated. Illustrate your ideas as needed, with diagrams, screen mockups, etc. Don’t forget to cite references—this is still a piece of formal writing.
+Knowledge of Creation
+> A DnD character information and design tool
+By: Kevin Patterson
 
 ## Application Description
-> A description of the application for which you have created the design, focusing on any particular usability issues that you’d like to address. In this initial phase, you don’t need to make any final decisions about the technology platform of the application yet, except perhaps whether the front end will be a web app vs. a native mobile app. There is no restriction on the particular technology stack to use later on, although I will be able to provide the most guidance for a traditional styled web app, a React web app, or a native iOS application written in Swift.
+> Knowledge of Creation is a web app that is going to use a 5th edition D&D api to provide users with information about the selected class, race, or stat that they wish to learn about. The goal of the app in its current form is to allow players to retrieve basic information about the different choices that they will face when creating a character. Having a web app with basic information makes players less reliant on a book, and makes retrieval much easier as well. Since stats are tied into both racial and class traits it is possible that I will create a link to stats info if pressed.
 
 ### Web Service(s) Used
-> Briefly list and describe the web service(s) that will support the functionality of your application. Don’t assume that the reader knows about the service(s) beforehand. Describe the functionality you intend to use, and list the API calls that your front end. Feel free to provide web links to relevant online documentation.
+> I will be using the D&D 5e API found at [http://www.dnd5eapi.co/](http://www.dnd5eapi.co/) for all the calls in this web app. All calls to the API will be GET calls and they will return all information requested back to me in a promise that I will format and present to the user. There is even a possibility for cross referenced calls, and filtered searches, but for now I will not be implementing them.
 
 ## Top-Level Design/Layout
-> Provide an overview of your user interface. Annotated mockups work very well here, with accompanying text describing, at a high level, the various components of your design.
+> I plan to make each labled portion of the three grids a button that, depending on which section is chosen, a previously hidden display will appear and relay the relevant information, then that box can either be closed (rehidden) or another option can be selected. I plan to make all the options for information availible to the user upon entry to the site. 
 
 ## Usage Scenarios
-> A usage scenario is a mini-story that highlights how a user would accomplish a certain task in your front end. Provide at least two. Make sure to provide the following information per scenario: (a) the task that the user will perform, (b) the relevant user interface elements for performing this task, and (c) a brief narrative on how the user would perform this task with those user interface elements. Mock up, animate, or annotate your scenarios liberally.
+> 
 
 ### Usage Scenario 1
-> Replace the title with an actual description of the scenario, e.g., “Adding a Song to a Playlist.”
+> 
 
 ### Usage Scenario 2
-> Ditto with the title.
+> 
 
 ## Design Rationale
-> State why your design is the way it is: relevant priorities, mental models, interaction design concepts, guidelines, principles, theories, etc. _Cite relevant references as needed._
+> 
 
 ## Usability Metric Forecast
-> If implemented then tested, what would be your design’s strong metrics? Weak metrics? Explain your choices.
+> 
 
 ## References
-> Cite formally if/where applicable, as you would with any other research paper.
+> 
